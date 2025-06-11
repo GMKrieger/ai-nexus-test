@@ -61,5 +61,4 @@ class LRUCacheE2ETests(unittest.TestCase):
         self.assertNotIn("value1", stdout)
         self.assertIn("None", stdout)  # Assuming None is returned when not found
 
-if __name__ == '__main__':
-    unittest.main()
+
